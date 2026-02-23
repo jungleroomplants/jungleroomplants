@@ -13,8 +13,7 @@ export default function Home() {
         </p>
 
         <p className="text-lg max-w-2xl mb-10">
-          Bring life into your space with thoughtfully designed plant layouts —
-          tailored to your light, style, and lifestyle.
+          Bring life into your space with thoughtfully designed plant layouts.
         </p>
 
         <a
