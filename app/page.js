@@ -1,28 +1,44 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-[#f3f7f3] text-[#1e3d2f]">
 
       {/* HERO */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-wide mb-6">
-          JUNGLE ROOM PLANTS
-        </h1>
+<section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+  <div className="w-full max-w-5xl rounded-3xl overflow-hidden shadow-sm border bg-white">
+    <div className="relative px-8 py-14 md:px-14 md:py-16" style={{ background: "var(--jr-terracotta)" }}>
+      <div className="mx-auto flex flex-col items-center gap-6">
+        <Image
+          src="/logo.png"
+          alt="Jungle Room Plants logo"
+          width={520}
+          height={520}
+          priority
+          className="w-[260px] md:w-[360px] h-auto"
+        />
 
-        <p className="text-xl md:text-2xl max-w-2xl mb-6">
-          Custom Plant Design & Care
-        </p>
-
-        <p className="text-lg max-w-2xl mb-10">
-          Bring life into your space with thoughtfully designed plant layouts.
+        <p className="text-base md:text-lg max-w-2xl" style={{ color: "var(--jr-butter)" }}>
+          Custom Plant Design & Care — for homes and offices in NYC.
         </p>
 
         <a
           href="#contact"
-          className="bg-[#1e3d2f] text-white px-8 py-4 rounded-full text-lg hover:opacity-80 transition"
+          className="px-8 py-4 rounded-full text-lg transition hover:opacity-90"
+          style={{ background: "var(--jr-butter)", color: "var(--jr-forest)" }}
         >
           Request a Quote
         </a>
-      </section>
+      </div>
+    </div>
+
+    <div className="px-8 py-10 md:px-14 md:py-12" style={{ background: "var(--jr-mist)" }}>
+      <p className="mx-auto max-w-3xl text-lg md:text-xl" style={{ color: "var(--jr-forest)" }}>
+        Bring life into your space with thoughtfully designed plant layouts —
+        tailored to your light, style, and lifestyle.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* SERVICES */}
       <section className="py-20 px-6 bg-white text-center">
@@ -112,7 +128,8 @@ export default function Home() {
 
             <button
               type="submit"
-              className="bg-[#1e3d2f] text-white py-4 rounded-full text-lg hover:opacity-80 transition"
+              className="py-4 rounded-full text-lg hover:opacity-90 transition"
+style={{ background: "var(--jr-forest)", color: "white" }}
             >
               Send Inquiry
             </button>

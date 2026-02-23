@@ -1,3 +1,10 @@
+:root {
+  --jr-terracotta: #C95B3F; /* warm orange background from logo */
+  --jr-butter: #F2D98A;     /* yellow type */
+  --jr-forest: #1e3d2f;     /* deep green */
+  --jr-leaf: #4f7a57;       /* leaf green */
+  --jr-mist: #f3f7f3;       /* soft pale background */
+}
 @import "tailwindcss";
 
 :root {
