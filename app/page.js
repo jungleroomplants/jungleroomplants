@@ -6,18 +6,21 @@ export default function Home() {
       {/* HERO */}
 <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
   <div className="w-full max-w-5xl rounded-3xl overflow-hidden shadow-sm border bg-white">
-    <div className="relative px-8 py-14 md:px-14 md:py-16" style={{ background: "var(--jr-terracotta)" }}>
+    <div
+      className="relative px-8 py-14 md:px-14 md:py-16"
+      style={{ background: "var(--jr-terracotta)" }}
+    >
       <div className="mx-auto flex flex-col items-center gap-6">
-        <Image
+        <img
           src="/logo.png"
           alt="Jungle Room Plants logo"
-          width={520}
-          height={520}
-          priority
-          className="w-[260px] md:w-[360px] h-auto"
+          className="w-[320px] md:w-[460px] lg:w-[520px] h-auto"
         />
 
-        <p className="text-base md:text-lg max-w-2xl" style={{ color: "var(--jr-butter)" }}>
+        <p
+          className="text-base md:text-lg max-w-2xl"
+          style={{ color: "var(--jr-butter)" }}
+        >
           Custom Plant Design & Care — for homes and offices in NYC.
         </p>
 
@@ -30,14 +33,9 @@ export default function Home() {
         </a>
       </div>
     </div>
-
-    <div className="px-8 py-10 md:px-14 md:py-12" style={{ background: "var(--jr-mist)" }}>
-      <p className="mx-auto max-w-3xl text-lg md:text-xl" style={{ color: "var(--jr-forest)" }}>
-        
-      </p>
-    </div>
   </div>
 </section>
+
 
       {/* SERVICES */}
       <section className="py-20 px-6 bg-white text-center">
@@ -117,6 +115,18 @@ export default function Home() {
           >
             <input type="text" name="name" placeholder="Your Name" required className="p-4 border rounded" />
             <input type="email" name="email" placeholder="Your Email" required className="p-4 border rounded" />
+            <select
+  name="type"
+  required
+  className="p-4 border rounded bg-white"
+  defaultValue=""
+>
+  <option value="" disabled>
+    This is for…
+  </option>
+  <option value="Home">Home</option>
+  <option value="Business">Business</option>
+</select>
             <textarea name="message" placeholder="Tell me about your space..." required rows="4" className="p-4 border rounded" />
 
             {/* helps reduce spam */}
