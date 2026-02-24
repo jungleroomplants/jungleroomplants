@@ -7,9 +7,9 @@ export default function Home() {
 <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
   <div className="w-full max-w-5xl rounded-3xl overflow-hidden shadow-sm border bg-white">
     <div
-      className="relative px-8 py-14 md:px-14 md:py-16"
-      style={{ background: "var(--jr-terracotta)" }}
-    >
+  className="jr-hero relative px-8 py-10 md:px-14 md:py-12"
+  style={{ background: "var(--jr-terracotta)" }}
+>
       <div className="mx-auto flex flex-col items-center gap-6">
         <img
           src="/logo.png"
@@ -24,13 +24,13 @@ export default function Home() {
           Custom Plant Design & Care — for homes and offices in NYC.
         </p>
 
-        <a
-          href="#contact"
-          className="px-8 py-4 rounded-full text-lg transition hover:opacity-90"
-          style={{ background: "var(--jr-butter)", color: "var(--jr-forest)" }}
-        >
-          Request a Quote
-        </a>
+       <a
+  href="#contact"
+  className="px-8 py-4 rounded-full text-lg transition duration-200 hover:opacity-95 hover:-translate-y-0.5 hover:scale-[1.01] active:translate-y-0"
+  style={{ background: "var(--jr-butter)", color: "var(--jr-forest)" }}
+>
+  Request a Quote
+</a>
       </div>
     </div>
   </div>
