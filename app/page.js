@@ -91,8 +91,8 @@ export default function Home() {
       <section className="py-20 px-6 bg-[#f3f7f3] text-center">
         <h2 className="text-4xl font-bold mb-8">About Jungle Room</h2>
         <p className="max-w-3xl mx-auto text-lg leading-relaxed">
-          Jungle Room began in a low light NYC apartment that was desperate for some green. 
-          From there, we've grown into a city-wide plant design and care service with one simple goal - 
+          Jungle Room began in a low-light NYC apartment that was desperate for some green. 
+          From there, we've grown into a city-wide plant design and care service with one simple goal — 
           bring plants into your space and keep them thriving.
         </p>
 
