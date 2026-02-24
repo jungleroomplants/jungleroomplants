@@ -33,8 +33,7 @@ export default function Home() {
 
     <div className="px-8 py-10 md:px-14 md:py-12" style={{ background: "var(--jr-mist)" }}>
       <p className="mx-auto max-w-3xl text-lg md:text-xl" style={{ color: "var(--jr-forest)" }}>
-        Bring life into your space with thoughtfully designed plant layouts —
-        tailored to your light, style, and lifestyle.
+        
       </p>
     </div>
   </div>
@@ -92,10 +91,9 @@ export default function Home() {
       <section className="py-20 px-6 bg-[#f3f7f3] text-center">
         <h2 className="text-4xl font-bold mb-8">About Jungle Room</h2>
         <p className="max-w-3xl mx-auto text-lg leading-relaxed">
-          Jungle Room Plants was built around a simple idea:
-          plants should make your space feel alive — not stressful.
-          I create plant setups that are beautiful, sustainable,
-          and realistic for how you actually live and work.
+          Jungle Room began in a low light NYC apartment that was desperate for some green. 
+          From there, we've grown into a city-wide plant design and care service with one simple goal - 
+          bring plants into your space and keep them thriving.
         </p>
 
         <p className="mt-6 text-lg">
