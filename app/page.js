@@ -153,3 +153,24 @@ style={{ background: "var(--jr-forest)", color: "white" }}
     </main>
   );
 }
+<div style={{ marginTop: "40px", textAlign: "center" }}>
+  <p>Follow Jungle Room Plants</p>
+
+  <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
+    <a
+      href="https://instagram.com/jungle_room_plants"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Instagram
+    </a>
+
+    <a
+      href="https://www.tiktok.com/@jungle.room.plants"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      TikTok
+    </a>
+  </div>
+</div>
