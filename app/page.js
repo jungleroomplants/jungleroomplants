@@ -144,33 +144,45 @@ style={{ background: "var(--jr-forest)", color: "white" }}
           </form>
         </div>
 
-        <div className="mt-10 text-lg">
-          <p>Email: jungleroomplants@gmail.com</p>
-          <p>Text: (614) 226-5340</p>
+              <div className="mt-12 text-center border-t pt-8">
+        <p className="text-lg mb-2">Get in touch</p>
+        <p className="mb-2">jungleroomplants@gmail.com</p>
+        <p className="mb-6">(614) 226-5340</p>
+
+        <div
+          className="rounded-2xl p-6"
+          style={{ background: "rgba(206, 122, 88, 0.08)" }}
+        >
+          <p className="text-lg mb-2">See our work</p>
+          <p className="text-sm mb-4">
+            Follow Jungle Room Plants for installs, plant styling, and care tips
+          </p>
+
+          <div className="flex gap-4 justify-center flex-wrap">
+           <a
+  href="https://instagram.com/jungle.room.plants"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-5 py-3 rounded-full text-sm hover:opacity-90 transition"
+  style={{ background: "var(--jr-forest)", color: "white" }}
+>
+  Instagram
+</a>
+
+            <a
+              href="https://www.tiktok.com/@jungle.room.plants"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 rounded-full text-sm hover:opacity-90 transition"
+              style={{ background: "var(--jr-forest)", color: "white" }}
+            >
+              TikTok
+            </a>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-    </main>
-  );
+  </main>
+);
 }
-<div style={{ marginTop: "40px", textAlign: "center" }}>
-  <p>Follow Jungle Room Plants</p>
-
-  <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-    <a
-      href="https://instagram.com/jungle_room_plants"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Instagram
-    </a>
-
-    <a
-      href="https://www.tiktok.com/@jungle.room.plants"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      TikTok
-    </a>
-  </div>
-</div>
